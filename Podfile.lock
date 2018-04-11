@@ -1,0 +1,79 @@
+PODS:
+  - Alamofire (4.7.1)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - EasyRealm (3.1.0):
+    - RealmSwift (~> 3.0.0)
+  - libwebp (0.6.1):
+    - libwebp/core (= 0.6.1)
+    - libwebp/dec (= 0.6.1)
+    - libwebp/demux (= 0.6.1)
+    - libwebp/dsp (= 0.6.1)
+    - libwebp/enc (= 0.6.1)
+    - libwebp/mux (= 0.6.1)
+    - libwebp/utils (= 0.6.1)
+    - libwebp/webp (= 0.6.1)
+  - libwebp/core (0.6.1):
+    - libwebp/webp
+  - libwebp/dec (0.6.1):
+    - libwebp/core
+  - libwebp/demux (0.6.1):
+    - libwebp/core
+  - libwebp/dsp (0.6.1):
+    - libwebp/core
+  - libwebp/enc (0.6.1):
+    - libwebp/core
+  - libwebp/mux (0.6.1):
+    - libwebp/core
+  - libwebp/utils (0.6.1):
+    - libwebp/core
+  - libwebp/webp (0.6.1)
+  - MBProgressHUD (1.1.0)
+  - ObjectMapper (3.1.0)
+  - Realm (3.0.2):
+    - Realm/Headers (= 3.0.2)
+  - Realm/Headers (3.0.2)
+  - RealmSwift (3.0.2):
+    - Realm (= 3.0.2)
+  - SDWebImage/Core (4.3.3)
+  - SDWebImage/WebP (4.3.3):
+    - libwebp (~> 0.5)
+    - SDWebImage/Core
+  - Swinject (2.2.0)
+
+DEPENDENCIES:
+  - AlamofireObjectMapper (~> 5.0.0)
+  - EasyRealm (~> 3.1.0)
+  - MBProgressHUD (~> 1.1.0)
+  - SDWebImage/WebP (~> 4.3.0)
+  - Swinject (~> 2.2.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - EasyRealm
+    - libwebp
+    - MBProgressHUD
+    - ObjectMapper
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - Swinject
+
+SPEC CHECKSUMS:
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  EasyRealm: b27d2c5792d846a57cea9385a7c08c9cd0db2c0f
+  libwebp: 0f01098c6c17175391af621b2f14150f3ca16e16
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  Realm: 6f23fd1f178a09342eac21bfa7c2bf4312a7a180
+  RealmSwift: 695393add1b8f9d5fa75dd16e6355cf3935f71e2
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  Swinject: 4ca48bca7de5f398229a26abe1ac902b9f3ee541
+
+PODFILE CHECKSUM: f591d8a8bc685d5354b99760f0084c9cb28f7d2f
+
+COCOAPODS: 1.5.0
