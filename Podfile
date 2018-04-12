@@ -11,6 +11,7 @@ target 'Brastlewark' do
   pod 'AlamofireObjectMapper', '~> 5.0.0'
   pod 'Swinject', '~> 2.2.0'
   pod 'EasyRealm', '~> 3.1.0'
+  pod 'GoogleSignIn'
 
   target 'BrastlewarkTests' do
     inherit! :search_paths

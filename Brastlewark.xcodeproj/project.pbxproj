@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		1FB02AD1A539F50BD3465D8A /* Pods_BrastlewarkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDD187D93C0154CD6A7F2C4 /* Pods_BrastlewarkTests.framework */; };
-		2321730C207D844900F20E2C /* GnomeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321730B207D844900F20E2C /* GnomeObject.swift */; };
+		23213C26207EFA1100C801B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23213C25207EFA1100C801B1 /* AppDelegate.swift */; };
 		2321730E207E318500F20E2C /* GnomeCascadeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321730D207E318400F20E2C /* GnomeCascadeManager.swift */; };
 		23217310207E31E800F20E2C /* GnomeCascadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321730F207E31E700F20E2C /* GnomeCascadeView.swift */; };
 		23217313207E60B400F20E2C /* CollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23217312207E60B400F20E2C /* CollectionViewHeader.swift */; };
 		23217316207EB86900F20E2C /* FetchGnomesServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23217315207EB86900F20E2C /* FetchGnomesServiceMock.swift */; };
+		23217319207ED2EA00F20E2C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23217318207ED2EA00F20E2C /* User.swift */; };
+		2321731B207ED4FF00F20E2C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321731A207ED4FF00F20E2C /* LoginViewController.swift */; };
 		237BCC6F207D36B0003C1A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237BCC6D207D36B0003C1A6B /* Main.storyboard */; };
 		237BCC71207D36B2003C1A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237BCC70207D36B2003C1A6B /* Assets.xcassets */; };
 		237BCC74207D36B2003C1A6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237BCC72207D36B2003C1A6B /* LaunchScreen.storyboard */; };
 		237BCC7F207D36B2003C1A6B /* GnomeCascadeManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237BCC7E207D36B2003C1A6B /* GnomeCascadeManagerTests.swift */; };
 		237BCC91207D37E9003C1A6B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237BCC89207D37E8003C1A6B /* MainViewController.swift */; };
 		237BCC92207D37E9003C1A6B /* GnomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237BCC8A207D37E8003C1A6B /* GnomeDetailsViewController.swift */; };
-		237BCC93207D37E9003C1A6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237BCC8B207D37E8003C1A6B /* AppDelegate.swift */; };
 		237BCC94207D37E9003C1A6B /* GnomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237BCC8C207D37E8003C1A6B /* GnomeCell.swift */; };
 		237BCC96207D37E9003C1A6B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237BCC8E207D37E8003C1A6B /* Constants.swift */; };
 		237BCC9A207D3857003C1A6B /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237BCC99207D3857003C1A6B /* UIView+Constraints.swift */; };
@@ -42,11 +43,13 @@
 
 /* Begin PBXFileReference section */
 		0ACC9BD0D5CD6903510E8335 /* Pods-Brastlewark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brastlewark.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brastlewark/Pods-Brastlewark.release.xcconfig"; sourceTree = "<group>"; };
-		2321730B207D844900F20E2C /* GnomeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeObject.swift; sourceTree = "<group>"; };
+		23213C25207EFA1100C801B1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2321730D207E318400F20E2C /* GnomeCascadeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeCascadeManager.swift; sourceTree = "<group>"; };
 		2321730F207E31E700F20E2C /* GnomeCascadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeCascadeView.swift; sourceTree = "<group>"; };
 		23217312207E60B400F20E2C /* CollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHeader.swift; sourceTree = "<group>"; };
 		23217315207EB86900F20E2C /* FetchGnomesServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchGnomesServiceMock.swift; sourceTree = "<group>"; };
+		23217318207ED2EA00F20E2C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2321731A207ED4FF00F20E2C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		237BCC66207D36B0003C1A6B /* Brastlewark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brastlewark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		237BCC6E207D36B0003C1A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		237BCC70207D36B2003C1A6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +60,6 @@
 		237BCC80207D36B2003C1A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		237BCC89207D37E8003C1A6B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		237BCC8A207D37E8003C1A6B /* GnomeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GnomeDetailsViewController.swift; sourceTree = "<group>"; };
-		237BCC8B207D37E8003C1A6B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../GlobalLogic/GlobalLogic/AppDelegate.swift; sourceTree = "<group>"; };
 		237BCC8C207D37E8003C1A6B /* GnomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GnomeCell.swift; sourceTree = "<group>"; };
 		237BCC8E207D37E8003C1A6B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		237BCC99207D3857003C1A6B /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
@@ -158,8 +160,9 @@
 				23217311207E3EE900F20E2C /* Cascade */,
 				23217314207E60C100F20E2C /* Views */,
 				237BCC89207D37E8003C1A6B /* MainViewController.swift */,
+				2321731A207ED4FF00F20E2C /* LoginViewController.swift */,
 				237BCC8E207D37E8003C1A6B /* Constants.swift */,
-				237BCC8B207D37E8003C1A6B /* AppDelegate.swift */,
+				23213C25207EFA1100C801B1 /* AppDelegate.swift */,
 				237BCC6D207D36B0003C1A6B /* Main.storyboard */,
 				237BCC70207D36B2003C1A6B /* Assets.xcassets */,
 				237BCC72207D36B2003C1A6B /* LaunchScreen.storyboard */,
@@ -191,7 +194,7 @@
 			children = (
 				237BCCA8207D391C003C1A6B /* Gnome.swift */,
 				237BCCA7207D391C003C1A6B /* GnomeDataModel.swift */,
-				2321730B207D844900F20E2C /* GnomeObject.swift */,
+				23217318207ED2EA00F20E2C /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				237BCC63207D36B0003C1A6B /* Frameworks */,
 				237BCC64207D36B0003C1A6B /* Resources */,
 				4C13DC11C738992FD37F994B /* [CP] Embed Pods Frameworks */,
+				3B959AE3C50C7C1926407967 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -323,6 +327,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3B959AE3C50C7C1926407967 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Brastlewark/Pods-Brastlewark-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brastlewark/Pods-Brastlewark-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4C13DC11C738992FD37F994B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,6 +355,9 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/EasyRealm/EasyRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
@@ -346,6 +371,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
@@ -410,11 +438,12 @@
 				237BCCB0207D834C003C1A6B /* Persistable.swift in Sources */,
 				23217310207E31E800F20E2C /* GnomeCascadeView.swift in Sources */,
 				237BCC92207D37E9003C1A6B /* GnomeDetailsViewController.swift in Sources */,
+				23213C26207EFA1100C801B1 /* AppDelegate.swift in Sources */,
+				23217319207ED2EA00F20E2C /* User.swift in Sources */,
 				2321730E207E318500F20E2C /* GnomeCascadeManager.swift in Sources */,
 				237BCC96207D37E9003C1A6B /* Constants.swift in Sources */,
 				237BCCAC207D392E003C1A6B /* FetchGnomesService.swift in Sources */,
-				2321730C207D844900F20E2C /* GnomeObject.swift in Sources */,
-				237BCC93207D37E9003C1A6B /* AppDelegate.swift in Sources */,
+				2321731B207ED4FF00F20E2C /* LoginViewController.swift in Sources */,
 				237BCC9A207D3857003C1A6B /* UIView+Constraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,7 +610,10 @@
 				DEVELOPMENT_TEAM = 7R83ND39GK;
 				INFOPLIST_FILE = Brastlewark/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arnaldo.Brastlewark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -598,7 +630,10 @@
 				DEVELOPMENT_TEAM = 7R83ND39GK;
 				INFOPLIST_FILE = Brastlewark/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arnaldo.Brastlewark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -615,7 +650,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7R83ND39GK;
 				INFOPLIST_FILE = BrastlewarkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arnaldo.BrastlewarkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -633,7 +672,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7R83ND39GK;
 				INFOPLIST_FILE = BrastlewarkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arnaldo.BrastlewarkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

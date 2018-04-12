@@ -12,3 +12,7 @@ enum GnomeAPI {
     static let baseURL = "https://raw.githubusercontent.com/rrafols/mobile_test/master/data.json"
     static let listKeyPath = "Brastlewark"
 }
+
+enum Notification {
+    static let toggleUI = "ToggleAuthUINotification"
+}
